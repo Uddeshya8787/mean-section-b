@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RandomRollNoComponent } from './random-roll-no/random-roll-no.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RandomRollNoComponent
   ],
   imports: [
     BrowserModule,
